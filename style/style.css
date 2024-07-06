@@ -119,20 +119,24 @@ a span:nth-child(4) {
 ::-webkit-scrollbar-corner,
 ::-webkit-resizer {
   background: #cf436b;
+  transition: all 0.3s;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #cf436b;
+  transition: all 0.3s;
 }
 
 ::-moz-selection {
   background: #cf436b;
   color: #dbddd7;
+  transition: all 0.3s;
 }
 
 ::selection {
   background: #cf436b;
   color: #dbddd7;
+  transition: all 0.3s;
 }
 html ::-moz-selection {
   background: #cf436b;
@@ -142,11 +146,13 @@ html ::-moz-selection {
 html ::selection {
   background: #cf436b;
   color: #dbddd7;
+  transition: all 0.3s;
 }
 
 html ::-moz-selection {
   background: #cf436b;
   color: #dbddd7;
+  transition: all 0.3s;
 }
 header {
   position: absolute;
@@ -207,11 +213,24 @@ header .logo {
     url('../img/trucking.webp');
 }
 
+.body3 {
+  background-color: #1f1828;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  text-align: center;
+}
+
 .contents {
-    margin-left:5%;
-    margin-right:5%;
-    color:#dbddd7;
-    font-size: 1.5em;
+  padding-left:5%;
+  padding-right:5%;
+  color:#dbddd7;
+  font-size: 1.5em;
+  transition: all 0.3s;
+}
+
+.contents p:hover {
+  background-color: #1f1828;
+  transition: all 0.3s;
 }
 
 .overlay {
@@ -222,7 +241,7 @@ header .logo {
   height: 100%;
   background-size: cover;
   background-image:
-  linear-gradient(to right, #cf436b, #1f182877),
+  linear-gradient(110deg, #cf436b, #1f182877),
   url('../img/headerbg.webp');
 }
 .text {
