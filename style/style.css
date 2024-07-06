@@ -203,7 +203,7 @@ header .logo {
     padding-bottom: 2em;
     background-size: cover;
     background-image:
-    linear-gradient(to left, #1f1828, #1f182877),
+    linear-gradient(to left, #1f1828, #1f1828e4, #1f182877),
     url('../img/trucking.webp');
 }
 
